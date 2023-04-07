@@ -26,6 +26,13 @@ $ (venv) pip install -r requirements.txt
 4. (venv) `pip install  numpy pandas seaborn jupyterlab`
 5. (venv) `jupyter-lab`
 
+### python -m venv venv 오류 발생시
+ 1. virtualenv 라이브러리 설치
+ -> python -m pip install virtualenv
+ 2. 가상환경 생성
+ -> python -m virtualenv venv
+ -> (venv) venv\Scripts\activate
+
 ## 매개변수
 1. 위치
 2. 디폴트 매개변수
