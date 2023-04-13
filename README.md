@@ -76,15 +76,13 @@ $ (venv) pip install -r requirements.txt
 - [ ] 시계열 문제(문제 탐색 중)
 
 ## 사용된 패키지 목록
-* numpy
-* pandas
-* seaborn
-* plotly
-* jupyterlab
-* statsmodels
-* scikit-learn
-* optuna
+     numpy pandas seaborn plotly jupyterlab
+     statsmodels scikit-learn optuna
 
+     finance-datareader prophet pycountry
+
+
+<br >
 
 ### 암기해야할 정규식
 >  핸드폰 번호(010 1234 5678) => 문자로 합쳐야함
@@ -92,4 +90,19 @@ $ (venv) pip install -r requirements.txt
   우편번호<br>
   주민등록번호
 
+
 #### apply reduce map filter
+
+
+### R을 이용한 데이터 분석
+     R => 통계 (유의수준 0.05 p값) => RStudio
+     Python => 단시간에 분석데이터를 빠르게 가공
+            => 머신러닝 (딥러닝X) => JupyterLab with Colab / VSCode
+
+    데이터 분석
+      -> 정형데이터를 활용해서 회귀/분류를 목적으로 데이터를 가공
+    데이터 과학
+      -> 가설 설정
+    
+
+    
