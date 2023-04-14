@@ -3,7 +3,7 @@
 <br/>
 
 # 개발에 필요한 기초 지식
- 0. 해당 데이터는 메모리에 존재해야한다.
+ 해당 데이터는 메모리에 존재해야한다.
 
 
 ## 설정
@@ -38,10 +38,12 @@ $ (venv) pip install -r requirements.txt
 #### 5) 그걸 기준으로 데이터 전처리 => 프론트에게 설명
 #### 6) 데이터 분리 및 학습 (XGBoost)
 #### 7) 결과 해석 후 반복
+
 <br>
 
 ### Epoch.1 -> 코드 작성
 
+<br>
 <hr>
 
 ## 프로젝트 시작시 주의사항
@@ -75,6 +77,8 @@ $ (venv) pip install -r requirements.txt
 - [ ] 분류 문제(타이타닉 생존자 예측 , kaggle)
 - [ ] 시계열 문제(문제 탐색 중)
 
+<br>
+
 ## 사용된 패키지 목록
      numpy pandas seaborn plotly jupyterlab
      statsmodels scikit-learn optuna
@@ -82,17 +86,21 @@ $ (venv) pip install -r requirements.txt
      finance-datareader prophet pycountry
 
 
-<br >
+<hr>
+<br>
 
 ### 암기해야할 정규식
->  핸드폰 번호(010 1234 5678) => 문자로 합쳐야함
-  <br>
-  우편번호<br>
-  주민등록번호
+    핸드폰 번호(010 1234 5678) => 문자로 합쳐야함
+    우편번호
+    주민등록번호
 
+<hr>
+<br>
 
-#### apply reduce map filter
+### apply reduce map filter
 
+<hr>
+<br>
 
 ### R을 이용한 데이터 분석
      R => 통계 (유의수준 0.05 p값) => RStudio
@@ -101,8 +109,14 @@ $ (venv) pip install -r requirements.txt
 
     데이터 분석
       -> 정형데이터를 활용해서 회귀/분류를 목적으로 데이터를 가공
-    데이터 과학
-      -> 가설 설정
-    
 
-    
+    데이터 과학
+
+      -> 가설 설정
+      
+<hr>
+
+
+
+
+
